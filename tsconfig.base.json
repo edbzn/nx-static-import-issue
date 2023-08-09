@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@myorg/lib-a": ["libs/lib-a/src/index.ts"],
+      "@myorg/lib-a/core": ["libs/lib-a/core/src/index.ts"],
+      "@myorg/lib-a/feature": ["libs/lib-a/feature/src/index.ts"],
+      "@myorg/lib-b": ["libs/lib-b/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
